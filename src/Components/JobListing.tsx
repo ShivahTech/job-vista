@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import ListingCard from "./ListingCard";
-import { get, map } from "lodash";
+import { map } from "lodash";
 
 const JobListing = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);

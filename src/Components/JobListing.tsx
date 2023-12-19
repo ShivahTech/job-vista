@@ -71,7 +71,7 @@ const JobListing = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-stretch gap-4">
+        <div className="flex flex-wrap items-stretch justify-between">
           {map(listing, (item: any, index: any) => (
             <ListingCard
               src={item.src}

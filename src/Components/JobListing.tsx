@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import ListingCard from "./ListingCard";
-import { get, map } from "lodash";
+import { map } from "lodash";
 
 const JobListing = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -71,7 +71,7 @@ const JobListing = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap items-stretch gap-4">
+        <div className="flex flex-wrap items-stretch justify-between">
           {map(listing, (item: any, index: any) => (
             <ListingCard
               src={item.src}

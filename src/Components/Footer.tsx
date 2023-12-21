@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <section className="lg:px-16 px-4 lg:py-10 mx-auto bg-yellow-100">
-        <div className="flex items-start justify-between lg:mb-20">
+      <section className="lg:px-16 px-4 lg:py-10 mx-auto bg-yellow-100 ">
+        <div className="flex items-start justify-between lg:mb-20 max-w-7xl mx-auto">
           <div>
             <Image
               src={"/img/Job_vista.png"}

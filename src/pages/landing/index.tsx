@@ -5,6 +5,7 @@ import FooterBanner from "@/Components/FooterBanner";
 import Header from "@/Components/Header";
 import HowItWorks from "@/Components/HowItWorks";
 import JobListing from "@/Components/JobListing";
+import MainLayout from "@/Components/Layout/MainLayout";
 import TrustedBy from "@/Components/TrustedBy";
 import React, { useEffect, useState } from "react";
 
@@ -27,16 +28,14 @@ const index = () => {
     <>
       <div>
         {isOnline ? (
-          <>
-            <Header />
+          <MainLayout>
             <Banner />
             <DemandingCategory />
             <HowItWorks />
             <JobListing />
             <TrustedBy />
             <FooterBanner />
-            <Footer />
-          </>
+          </MainLayout>
         ) : (
           <div
             className="relative z-[99]"
@@ -88,16 +87,6 @@ const index = () => {
             </div>
           </div>
         )}
-      </div>
-      <div className="absolute z-1">
-        <Header />
-        <Banner />
-        <DemandingCategory />
-        <HowItWorks />
-        <JobListing />
-        <TrustedBy />
-        <FooterBanner />
-        <Footer />
       </div>
     </>
   );

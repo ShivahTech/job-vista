@@ -4,7 +4,7 @@ import React from "react";
 const DemandingCategory = () => {
   return (
     <>
-      <section className="lg:px-16 px-4 lg:mb-36 mx-auto">
+      <section className="lg:px-16 px-4 lg:mb-36 max-w-7xl mx-auto">
         <div>
           <div className="flex justify-between items-center lg:mb-16">
             <h2 className="title_font text-5xl font-medium">

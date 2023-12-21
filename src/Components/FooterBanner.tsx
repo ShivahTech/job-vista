@@ -4,7 +4,7 @@ const FooterBanner = () => {
   return (
     <>
       <section className="footer_banner lg:px-16 px-4 lg:py-32 mx-auto relative">
-        <div className="text-white flex items-center justify-between relative z-10">
+        <div className="text-white flex items-center justify-between relative z-10 max-w-7xl mx-auto">
           <h2 className="text-6xl font-medium">
             Complete job <br />
             portal for everyone.

@@ -22,8 +22,8 @@ const ListingCard = ({
 }: IProps) => {
   return (
     <>
-      <div className="bg-white p-9 rounded-tl-xl rounded-tr-xl listing_shadow transition mb-10 lg:w-[32.3%] relative">
-        <div className="flex items-center justify-between mb-14">
+      <div className="bg-white p-9 rounded-tl-xl rounded-tr-xl listing_shadow transition mb-10 lg:w-[32.3%] relative max-w-7xl mx-auto ">
+        <div className="flex items-center justify-between mb-14 ">
           <Image src={src} alt={"listing_logo"} width={45} height={45} />
           <i
             onClick={toggle}

@@ -50,8 +50,8 @@ const JobListing = () => {
   ];
   return (
     <>
-      <section className="lg:px-16 px-4 lg:py-20 lg:mb-24 mx-auto bg-yellow-50">
-        <div className="flex items-center justify-between lg:mb-20">
+      <section className="lg:px-16 px-4 lg:py-20 lg:mb-24 mx-auto bg-yellow-50 ">
+        <div className="flex items-center justify-between lg:mb-20 max-w-7xl mx-auto">
           <h2 className=" text-6xl font-medium">New job listing</h2>
           <div className="flex items-center justify-between">
             <p className="mr-7 text-yellow-600 font-semibold border-b-2 border-yellow-600 pb-1 text-lg cursor-pointer">
@@ -84,7 +84,7 @@ const JobListing = () => {
               toggle={() => handleBookmark(index)}
             />
           ))}
-          <div className="bg-yellow-300 px-9 py-6 rounded-xl mb-10 lg:w-[361px] relative hover:-translate-y-2 listing_last">
+          <div className="bg-yellow-300 px-9 py-6 rounded-xl mb-10 lg:w-[32.3%]  relative hover:-translate-y-2 listing_last">
             <h3 className="text-7xl title_font mb-5">13k+</h3>
             <h3 className="text-xl font-medium">Job already posted</h3>
             <div className="absolute right-9 bottom-9">

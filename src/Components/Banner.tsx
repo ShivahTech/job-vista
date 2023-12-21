@@ -16,8 +16,8 @@ const Banner = () => {
   const [selectedOption, setSelectedOption] = useState<any>(null);
   return (
     <>
-      <section className="banner_section w-full -mt-24 pt-[233px] pb-[350px] mb-32 mx-auto">
-        <div className="flex items-center justify-center flex-col relative">
+      <section className="banner_section w-full -mt-24 pt-[233px] pb-[350px]  px-8 mb-32 ">
+        <div className="flex items-center justify-center flex-col relative max-w-7xl mx-auto">
           <h1 className="title_font text-[80px] font-medium text-center leading-tight heading_text">
             Find your job without <br /> any hassle.
           </h1>
@@ -36,7 +36,7 @@ const Banner = () => {
                   </label>
                   <div className="App">
                     <Select
-                      className="react_select"
+                      className="react_select max-w-7xl mx-auto"
                       defaultValue={selectedOption}
                       onChange={setSelectedOption}
                       options={options}

@@ -3,7 +3,7 @@ import React from "react";
 
 const TrustedBy = () => {
   return (
-    <section className="lg:px-16 px-4 lg:pt-6 mx-auto">
+    <section className="lg:px-16 px-4 lg:pt-6 mx-auto max-w-7xl mx-auto">
       <div className="lg:pb-20 border-b border-gray-300">
         <h2 className="text-2xl text-center font-medium lg:mb-16">
           TRUSTED BY <span className="text-yellow-500">500+</span> COMPANIES
